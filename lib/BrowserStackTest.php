@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 require 'lib/globals.php';
 
-class BrowserStackTest extends PHPUnit_Framework_TestCase
+class BrowserStackTest extends PHPUnit\Framework\TestCase
 {
     protected static $driver;
     protected static $bs_local;
