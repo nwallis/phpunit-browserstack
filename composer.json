@@ -1,4 +1,5 @@
 {
+  "name": "browserstack/phpunit-browserstack",
   "require": {
     "browserstack/browserstack-local": "dev-master",
     "phpunit/phpunit-selenium": "*",
@@ -10,7 +11,9 @@
     "local": "CONFIG_FILE=config/local.conf.json vendor/bin/phpunit tests/local_test.php",
     "parallel": "CONFIG_FILE=config/parallel.conf.json /usr/bin/env php lib/parallel.php"
   },
-  "autoload": {
-    "classmap": ["lib/"]
+  "autoload-dev": {
+    "psr-4": {
+      "BrowserStack\\": "lib/" 
+    }
   }
 }
