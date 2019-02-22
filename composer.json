@@ -1,5 +1,14 @@
 {
   "name": "browserstack/phpunit-browserstack",
+  "description": "TestCase wrapper to assist with browserstack.com",
+  "keywords": ["selenium", "php", "browserstack", "local"],
+  "homepage": "https://github.com/browserstack/phpunit-browserstack",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/browserstack/phpunit-browserstack/issues",
+    "source": "https://github.com/browserstack/phpunit-browserstack"
+  },
   "require": {
     "browserstack/browserstack-local": "dev-master",
     "phpunit/phpunit-selenium": "*",
